@@ -1,6 +1,5 @@
 import React from 'react';
 import CountForm from './components/CountForm';
-import './App.css';
 
 const App: React.FC = () => {
   return (
