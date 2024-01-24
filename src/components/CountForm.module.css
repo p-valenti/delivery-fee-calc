@@ -1,0 +1,65 @@
+.countFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #effbfe;
+    font-family: Bahnschrift;
+}
+
+.countForm {
+    max-width: 400px;
+    margin: 0 auto;
+    border: thick #57c4e1;
+    border-radius: 8%;
+    padding: 10px 60px;
+    background: #61dafb;
+}
+
+.countForm h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.countForm input {
+    height: 20px;
+    width: 120px;
+    font-family: Bahnschrift;
+}
+
+.calcFields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.flexField {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*.flexTimeField {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 12px;*/
+/*}*/
+
+.countFormContainer button {
+    height: 40px;
+    background: #4398af;
+    border-radius: 13px;
+    border: 0;
+    padding: 5px 15px;
+    color: #effbfe;
+    font-family: Bahnschrift;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
