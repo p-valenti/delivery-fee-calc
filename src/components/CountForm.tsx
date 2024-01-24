@@ -91,7 +91,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
             <div className={styles.countForm}>
                 <h1>Delivery Fee Calculator</h1>
                 <div className={styles.calcFields}>
-                    <div>Cart Value</div>
+                    <div className={styles.calcParam}>Cart Value</div>
                     <div className={styles.flexField}>
                         <input
                             type='number'
@@ -100,9 +100,9 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             aria-label='Cart Value'
                             data-testid='cart-input'
                         />
-                        <div>€</div>
+                        <div className={styles.measure}>€</div>
                     </div>
-                    <div>Delivery distance</div>
+                    <div className={styles.calcParam}>Delivery distance</div>
                     <div className={styles.flexField}>
                         <input
                             type='number'
@@ -111,9 +111,9 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             aria-label='Delivery distance'
                             data-testid='distance-input'
                         />
-                        <div>m</div>
+                        <div className={styles.measure}>m</div>
                     </div>
-                    <div>Amount of items</div>
+                    <div className={styles.calcParam}>Amount of items</div>
                     <div>
                         <input
                             type='number'
@@ -123,7 +123,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             data-testid='amount-input'
                         />
                     </div>
-                    <div>Date</div>
+                    <div className={styles.calcParam}>Date</div>
                     <div>
                         <input
                             type="date"
@@ -133,7 +133,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             data-testid='date-input'
                         />
                     </div>
-                    <div>Time</div>
+                    <div className={styles.calcParam}>Time</div>
                     <div>
                         <input
                             type="time"

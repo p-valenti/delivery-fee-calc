@@ -5,13 +5,15 @@
     height: 100vh;
     background: #effbfe;
     font-family: Bahnschrift;
+    color: #323232;
+    font-size: 17px;
 }
 
 .countForm {
     max-width: 400px;
     margin: 0 auto;
     border: thick #57c4e1;
-    border-radius: 8%;
+    border-radius: 5%;
     padding: 10px 60px;
     background: #61dafb;
 }
@@ -22,9 +24,15 @@
 }
 
 .countForm input {
-    height: 20px;
-    width: 120px;
+    height: 24px;
+    width: 180px;
     font-family: Bahnschrift;
+    border: 0;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 3px;
+    font-size: 15px;
 }
 
 .calcFields {
@@ -36,23 +44,19 @@
 .flexField {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
 }
-
-/*.flexTimeField {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    gap: 12px;*/
-/*}*/
 
 .countFormContainer button {
     height: 40px;
-    background: #4398af;
-    border-radius: 13px;
+    background: #323232;
+    border-radius: 8px;
     border: 0;
     padding: 5px 15px;
     color: #effbfe;
     font-family: Bahnschrift;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 .count {
@@ -61,5 +65,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    font-size: 20px;
 }
 
+ .calcParam, .measure {
+     padding-top: 5px;
+ }
