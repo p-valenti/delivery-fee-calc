@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Delivery Fee Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React App for calculating the delivery fee based on various parameters such as cart value, delivery distance, number of items, and delivery date/time.
+
+## Introduction
+
+The `Delivery fee calculator' App provides a user interface to input parameters such as cart value, delivery distance, number of items, and delivery date/time. The App then calculates the delivery fee based on a set of rules, including additional surcharges and discounts.
+
+## Features
+
+- Input fields for cart value, delivery distance, number of items, date, and time.
+- Real-time calculation of the delivery fee based on user input.
+- Consideration of additional surcharges for small orders, distance, and items.
+- Application of a rush hour multiplier on Fridays between 3 PM and 7 PM.
 
 ## Available Scripts
 
@@ -39,8 +50,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
