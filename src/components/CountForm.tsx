@@ -98,6 +98,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             value={inputCartValue}
                             onChange={handleInputCartValue}
                             aria-label='Cart Value'
+                            data-testid='cart-input'
                         />
                         <div>€</div>
                     </div>
@@ -108,6 +109,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             value={inputDistance}
                             onChange={handleInputDistance}
                             aria-label='Delivery distance'
+                            data-testid='distance-input'
                         />
                         <div>m</div>
                     </div>
@@ -118,6 +120,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             value={inputAmountItems}
                             onChange={handleInputAmountItems}
                             aria-label='Amount of items'
+                            data-testid='amount-input'
                         />
                     </div>
                     <div>Date</div>
@@ -127,6 +130,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             value={dateValue}
                             onChange={handleDateChange}
                             aria-label='Date'
+                            data-testid='date-input'
                         />
                     </div>
                     <div>Time</div>
@@ -136,6 +140,7 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
                             value={timeValue}
                             onChange={handleTimeChange}
                             aria-label='Time'
+                            data-testid='time-input'
                         />
                     </div>
 
