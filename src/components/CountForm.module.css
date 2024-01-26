@@ -4,7 +4,7 @@
     justify-content: center;
     height: 100vh;
     background: #effbfe;
-    font-family: Bahnschrift;
+    font-family: system-ui;
     color: #323232;
     font-size: 17px;
 }
@@ -26,7 +26,7 @@
 .countForm input {
     height: 24px;
     width: 180px;
-    font-family: Bahnschrift;
+    font-family: system-ui;
     border: 0;
     border-radius: 3px;
     padding-left: 8px;

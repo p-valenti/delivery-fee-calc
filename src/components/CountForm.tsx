@@ -17,7 +17,6 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
     const [price, setPrice] = useState(initialPrice);
 
     const handleInputCartValue = (event: React.ChangeEvent<HTMLInputElement>) => {
-        console.log(event.target.value)
         const newCartValue = parseFloat(event.target.value);
         setInputCartValue(newCartValue);
         if (newCartValue <= 10) {
@@ -25,7 +24,6 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
         } else {
             setDifValue(0);
         }
-        console.log(difValue)
     };
 
     const handleInputDistance = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -70,8 +68,6 @@ const CountForm: React.FC<CountFormProps> = ({initialPrice}) => {
     }
 
     const handlePrice = () => {
-        console.log("price")
-        console.log(typeof inputCartValue)
         const currentDate = new Date(`${dateValue}T${timeValue}`);
         if (inputCartValue >= 200) {
             setPrice(0);
